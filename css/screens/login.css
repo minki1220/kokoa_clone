@@ -1,0 +1,53 @@
+.Welcome-header {
+  margin: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Welcome-header_title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.Welcome-header_text {
+  width: 43%;
+  opacity: 0.6;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.idpw {
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.idpw::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.idpw:focus {
+  outline-style: none;
+  border-color: var(--yellow);
+}
+.login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
+.login-btn {
+  font-size: 18px;
+  margin-bottom: 25px;
+  border: none;
+  background-color: var(--yellow);
+  cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
