@@ -1,12 +1,10 @@
 .status-bar {
   display: flex;
   justify-content: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 .status-bar_column {
-  width: 33%;
+  width: 100%;
+  position: fixed;
 }
 .status-bar_column:first-child span {
   margin: 5px;
